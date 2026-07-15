@@ -47,7 +47,7 @@ jobs:
         with:
           node-version: 24
           cache: "npm"
-          cache-dependency-path: "./frontEnd/ci-cd-front/package-lock.json"
+          cache-dependency-path: "./frontEnd/front/package-lock.json"
           # faz com q ele procure o package.json para colocar as dependencias, mas precisa dizer onde ele está, se n vai na raiz do projeto
 
       #             Glob (**)
@@ -56,9 +56,9 @@ jobs:
       # ✅ Muito usado em monorepos grandes.
 
       - name: Instalar dependências do Front
-        working-directory: ./frontEnd/ci-cd-front
+        working-directory: ./frontEnd/front
         run: npm ci
 
       - name: Build do Front
-        working-directory: ./frontEnd/ci-cd-front
+        working-directory: ./frontEnd/front
         run: npm run build
