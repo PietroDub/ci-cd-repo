@@ -1,0 +1,52 @@
+# Nome que aparecerá na aba "Actions" do GitHub
+name: CI
+
+# Quando executar este workflow
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    # Máquina virtual criada pelo GitHub para executar o workflow
+    runs-on: ubuntu-latest
+
+    steps:
+      # Faz o download (checkout) do código do repositório
+      - name: Baixar o código
+        uses: actions/checkout@v4
+
+      # Instala o SDK do .NET na máquina do GitHub
+      - name: Instalar .NET 9
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "9.0.x"
+
+      # Restaura todos os pacotes NuGet do projeto
+      - name: Restaurar dependências da API
+        working-directory: ./backEnd/Ci_Cd_Count/Ci_Cd_Count
+        # rodando o comando especificando o local
+        run: dotnet restore Ci_Cd_Count.csproj
+
+      # Compila a aplicação para verificar se não há erros
+      - name: Compilar API
+        working-directory: ./backEnd/Ci_Cd_Count/Ci_Cd_Count
+        run: dotnet build --no-restore
+
+
+       # passos do front-end
+       
+      - name: Instalar Node
+        uses: actions/setup-node@v6
+        with:
+            node-version: 24
+            cache: 'npm'
+        
+      - name: Instalar dependências do Front
+        working-directory: ./frontEnd/ci-cd-front
+        run: npm ci
+
+      - name: Build do Front
+        working-directory: ./frontEnd/ci-cd-front
+        run: npm run build
