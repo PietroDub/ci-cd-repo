@@ -1,0 +1,6 @@
+@Ci_Cd_Count_HostAddress = http://localhost:5031
+
+GET {{Ci_Cd_Count_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
