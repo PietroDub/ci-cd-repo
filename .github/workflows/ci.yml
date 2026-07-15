@@ -25,7 +25,7 @@ jobs:
 
       # Restaura todos os pacotes NuGet do projeto
       - name: Restaurar dependências da API
-        working-directory: ./backEnd/Ci_Cd_Count/Ci_Cd_Count
+        working-directory: ./backEnd/Ci-Cd-Count/Ci-Cd-Count
         # rodando o comando especificando o local
         run: dotnet restore
 
