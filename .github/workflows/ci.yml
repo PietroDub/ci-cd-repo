@@ -27,7 +27,9 @@ jobs:
       - name: Restaurar dependências da API
         working-directory: ./backEnd/Ci_Cd_Count/Ci_Cd_Count
         # rodando o comando especificando o local
-        run: dotnet restore Ci_Cd_Count.csproj
+        run: dotnet restore
+
+
 
       # Compila a aplicação para verificar se não há erros
       - name: Compilar API
