@@ -36,8 +36,11 @@ jobs:
 
         # passos do front-end
 
-      - name: Procurar package-lock
-        run: find . -name "package-lock.json"
+      - name: Mostrar estrutura do repositório
+        run: |
+          pwd
+          ls -la
+          find .
 
       - name: Instalar Node
         uses: actions/setup-node@v6
