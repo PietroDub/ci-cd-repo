@@ -29,22 +29,26 @@ jobs:
         # rodando o comando especificando o local
         run: dotnet restore
 
-
-
       # Compila a aplicação para verificar se não há erros
       - name: Compilar API
         working-directory: ./backEnd/Ci-Cd-Count/Ci-Cd-Count
         run: dotnet build --no-restore
 
+        # passos do front-end
 
-       # passos do front-end
-       
       - name: Instalar Node
         uses: actions/setup-node@v6
         with:
-            node-version: 24
-            # cache: 'npm' faz com q ele procure o package.json para colocar as dependencias, mas precisa dizer onde ele está, se n vai na raiz do projeto
-        
+          node-version: 24
+          cache: "npm"
+          cache-dependency-path: "./frontEnd/ci-cd-front/package-lock.json"
+          # faz com q ele procure o package.json para colocar as dependencias, mas precisa dizer onde ele está, se n vai na raiz do projeto
+
+      #             Glob (**)
+      # cache-dependency-path: '**/package-lock.json'
+
+      # ✅ Muito usado em monorepos grandes.
+
       - name: Instalar dependências do Front
         working-directory: ./frontEnd/ci-cd-front
         run: npm ci
