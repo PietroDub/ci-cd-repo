@@ -33,7 +33,7 @@ jobs:
 
       # Compila a aplicação para verificar se não há erros
       - name: Compilar API
-        working-directory: ./backEnd/Ci_Cd_Count/Ci_Cd_Count
+        working-directory: ./backEnd/Ci-Cd-Count/Ci-Cd-Count
         run: dotnet build --no-restore
 
 
