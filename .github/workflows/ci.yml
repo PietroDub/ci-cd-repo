@@ -72,4 +72,7 @@ jobs:
         working-directory: ./frontEnd/front
         run: npm run lint
 
+      - name: Testes do Vitest
+        working-directory: ./frontEnd/front
+        run: npm run test
       
