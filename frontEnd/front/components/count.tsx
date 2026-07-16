@@ -3,10 +3,11 @@
 import { useState } from "react";
 
 export default function Counter() {
-  var [number, setNumber] = useState(0);
+  const [number, setNumber] = useState(0);
 
   async function addCount() {
-    setNumber(number += 1)
+    const numero = number + 1;
+    setNumber(numero)
     console.log("cliquei", number);
     return number;
   }
