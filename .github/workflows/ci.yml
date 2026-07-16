@@ -37,7 +37,7 @@ jobs:
 
       # rodando os testes da nossa API  
       - name: Testando o dotnet
-        working-directory: ./backEnd/Ci_Cd_Count/Ci_Cd_Count
+        working-directory: ./backEnd/Ci_Cd_Count/UNIT-CI-CD
         run: dotnet test --no-build
 
         # passos do front-end
