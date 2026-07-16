@@ -62,7 +62,7 @@ jobs:
 
       - name: Instalar dependências do Front
         working-directory: ./frontEnd/front
-        run: npm ci
+        run: npm i
 
       - name: Build do Front
         working-directory: ./frontEnd/front
