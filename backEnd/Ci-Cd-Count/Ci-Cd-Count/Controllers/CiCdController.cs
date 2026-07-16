@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Ci_Cd_Count.Classes;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Ci_Cd_Count.Controllers
@@ -10,9 +11,9 @@ namespace Ci_Cd_Count.Controllers
         [HttpGet]
         public ActionResult Message()
         {
-            return Ok(new
+            return Ok(new messageResponse
             {
-                message = "Olá GitHub Actions!"
+                Message = "Olá GitHub Actions!"
             });
         }
     }

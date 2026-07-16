@@ -489,11 +489,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pietr\\source\\repos\\Ci-Cd-Count\\ci-cd-count\\Ci-Cd-Count.csproj",
+      "projectUniqueName": "C:\\Users\\pietr\\Downloads\\ci-cd\\backEnd\\Ci-Cd-Count\\Ci-Cd-Count\\Ci-Cd-Count.csproj",
       "projectName": "Ci-Cd-Count",
-      "projectPath": "C:\\Users\\pietr\\source\\repos\\Ci-Cd-Count\\ci-cd-count\\Ci-Cd-Count.csproj",
+      "projectPath": "C:\\Users\\pietr\\Downloads\\ci-cd\\backEnd\\Ci-Cd-Count\\Ci-Cd-Count\\Ci-Cd-Count.csproj",
       "packagesPath": "C:\\Users\\pietr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pietr\\source\\repos\\Ci-Cd-Count\\ci-cd-count\\obj\\",
+      "outputPath": "C:\\Users\\pietr\\Downloads\\ci-cd\\backEnd\\Ci-Cd-Count\\Ci-Cd-Count\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -512,6 +512,7 @@
       },
       "frameworks": {
         "net9.0": {
+          "framework": "net9.0",
           "targetAlias": "net9.0",
           "projectReferences": {}
         }
@@ -530,6 +531,7 @@
     },
     "frameworks": {
       "net9.0": {
+        "framework": "net9.0",
         "targetAlias": "net9.0",
         "dependencies": {
           "Microsoft.AspNetCore.OpenApi": {

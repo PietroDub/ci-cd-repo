@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YfWZbrVtdmo=",
+  "dgSpecHash": "kp3KWH9mHRk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\pietr\\source\\repos\\Ci-Cd-Count\\Ci-Cd-Count\\Ci-Cd-Count.csproj",
+  "projectFilePath": "C:\\Users\\pietr\\Downloads\\ci-cd\\backEnd\\Ci-Cd-Count\\Ci-Cd-Count\\Ci-Cd-Count.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pietr\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.16\\microsoft.aspnetcore.openapi.9.0.16.nupkg.sha512",
     "C:\\Users\\pietr\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

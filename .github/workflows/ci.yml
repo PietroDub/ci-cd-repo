@@ -34,6 +34,12 @@ jobs:
         working-directory: ./backEnd/Ci-Cd-Count/Ci-Cd-Count
         run: dotnet build --no-restore
 
+
+      # rodando os testes da nossa API  
+      - name: Testando o dotnet
+        working-directory: ./backEnd/Ci_Cd_Count/Ci_Cd_Count
+        run: dotnet test --no-build
+
         # passos do front-end
 
       - name: Mostrar estrutura do repositório
@@ -62,3 +68,5 @@ jobs:
       - name: Build do Front
         working-directory: ./frontEnd/front
         run: npm run build
+
+      

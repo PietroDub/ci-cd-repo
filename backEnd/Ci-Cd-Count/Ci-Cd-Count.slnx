@@ -1,3 +1,5 @@
 <Solution>
   <Project Path="Ci-Cd-Count/Ci-Cd-Count.csproj" />
+  <Project Path="Test-Ci-Cd-Count-UNIT/Test-Ci-Cd-Count-UNIT.csproj" Id="105300a6-e29c-447b-a061-32ba25c4113b" />
+  <Project Path="UNIT-CI-CD/UNIT-CI-CD.csproj" Id="e5d575e6-f900-43b8-b3cc-8a8d06764294" />
 </Solution>
