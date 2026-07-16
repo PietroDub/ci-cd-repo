@@ -69,7 +69,7 @@ jobs:
         run: npm run build
 
       - name: Correção sintatica do front
-        working-directory: .frontEnd/front
+        working-directory: ./frontEnd/front
         run: npm run lint
 
       
