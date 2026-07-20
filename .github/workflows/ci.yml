@@ -60,6 +60,8 @@ jobs:
 
       # ✅ Muito usado em monorepos grandes.
 
+      # npm ci Instala exatamente as dependências do package-lock.json,
+      # garantindo uma build limpa e reproduzível na pipeline.
       - name: Instalar dependências do Front
         working-directory: ./frontEnd/front
         run: npm i

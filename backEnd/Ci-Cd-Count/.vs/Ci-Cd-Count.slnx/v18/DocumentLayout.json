@@ -33,32 +33,6 @@
           "SelectedChildIndex": 9,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "messageResponse.cs",
-              "DocumentMoniker": "C:\\Users\\pietr\\Downloads\\ci-cd\\backEnd\\Ci-Cd-Count\\Ci-Cd-Count\\Classes\\messageResponse.cs",
-              "RelativeDocumentMoniker": "Ci-Cd-Count\\Classes\\messageResponse.cs",
-              "ToolTip": "C:\\Users\\pietr\\Downloads\\ci-cd\\backEnd\\Ci-Cd-Count\\Ci-Cd-Count\\Classes\\messageResponse.cs",
-              "RelativeToolTip": "Ci-Cd-Count\\Classes\\messageResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-15T18:24:54.317Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Ci-Cd-Count",
-              "DocumentMoniker": "C:\\Users\\pietr\\Downloads\\ci-cd\\backEnd\\Ci-Cd-Count\\Ci-Cd-Count\\Ci-Cd-Count.csproj",
-              "RelativeDocumentMoniker": "Ci-Cd-Count\\Ci-Cd-Count.csproj",
-              "ToolTip": "C:\\Users\\pietr\\Downloads\\ci-cd\\backEnd\\Ci-Cd-Count\\Ci-Cd-Count\\Ci-Cd-Count.csproj",
-              "RelativeToolTip": "Ci-Cd-Count\\Ci-Cd-Count.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-07-15T18:24:33.491Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
@@ -80,6 +54,30 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "messageResponse.cs",
+              "DocumentMoniker": "C:\\Users\\pietr\\Downloads\\ci-cd\\backEnd\\Ci-Cd-Count\\Ci-Cd-Count\\Classes\\messageResponse.cs",
+              "RelativeDocumentMoniker": "Ci-Cd-Count\\Classes\\messageResponse.cs",
+              "ToolTip": "C:\\Users\\pietr\\Downloads\\ci-cd\\backEnd\\Ci-Cd-Count\\Ci-Cd-Count\\Classes\\messageResponse.cs",
+              "RelativeToolTip": "Ci-Cd-Count\\Classes\\messageResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T18:24:54.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Ci-Cd-Count.csproj",
+              "DocumentMoniker": "C:\\Users\\pietr\\Downloads\\ci-cd\\backEnd\\Ci-Cd-Count\\Ci-Cd-Count\\Ci-Cd-Count.csproj",
+              "RelativeDocumentMoniker": "Ci-Cd-Count\\Ci-Cd-Count.csproj",
+              "ToolTip": "C:\\Users\\pietr\\Downloads\\ci-cd\\backEnd\\Ci-Cd-Count\\Ci-Cd-Count\\Ci-Cd-Count.csproj",
+              "RelativeToolTip": "Ci-Cd-Count\\Ci-Cd-Count.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-15T18:24:33.491Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "MSTestSettings.cs",
               "DocumentMoniker": "C:\\Users\\pietr\\Downloads\\ci-cd\\backEnd\\Ci-Cd-Count\\UNIT-CI-CD\\MSTestSettings.cs",
@@ -88,8 +86,7 @@
               "RelativeToolTip": "UNIT-CI-CD\\MSTestSettings.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-15T18:08:45.881Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-15T18:08:45.881Z"
             },
             {
               "$type": "Document",
@@ -101,8 +98,7 @@
               "RelativeToolTip": "Ci-Cd-Count\\Controllers\\CiCdController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-15T17:50:37.053Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-15T17:50:37.053Z"
             },
             {
               "$type": "Document",
