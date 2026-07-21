@@ -68,6 +68,7 @@ export default function Calculadora(){
                         numbers.map(numero => (
                             <button 
                             onClick={() => setNumero(+ numero)}
+                            key={numero}
                             className="bg-blue-500">
                                  {numero}
                             </button>
