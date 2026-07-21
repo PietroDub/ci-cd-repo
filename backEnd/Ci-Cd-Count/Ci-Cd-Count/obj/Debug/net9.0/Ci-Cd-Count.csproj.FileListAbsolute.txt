@@ -73,3 +73,9 @@ C:\Users\pietr\Downloads\ci-cd\backEnd\Ci-Cd-Count\Ci-Cd-Count\obj\Debug\net9.0\
 C:\Users\pietr\Downloads\ci-cd\backEnd\Ci-Cd-Count\Ci-Cd-Count\obj\Debug\net9.0\Ci-Cd-Count.pdb
 C:\Users\pietr\Downloads\ci-cd\backEnd\Ci-Cd-Count\Ci-Cd-Count\obj\Debug\net9.0\Ci-Cd-Count.genruntimeconfig.cache
 C:\Users\pietr\Downloads\ci-cd\backEnd\Ci-Cd-Count\Ci-Cd-Count\obj\Debug\net9.0\ref\Ci-Cd-Count.dll
+C:\Users\pietr\Downloads\ci-cd\backEnd\Ci-Cd-Count\Ci-Cd-Count\bin\Debug\net9.0\DnsClient.dll
+C:\Users\pietr\Downloads\ci-cd\backEnd\Ci-Cd-Count\Ci-Cd-Count\bin\Debug\net9.0\MongoDB.Bson.dll
+C:\Users\pietr\Downloads\ci-cd\backEnd\Ci-Cd-Count\Ci-Cd-Count\bin\Debug\net9.0\MongoDB.Driver.dll
+C:\Users\pietr\Downloads\ci-cd\backEnd\Ci-Cd-Count\Ci-Cd-Count\bin\Debug\net9.0\SharpCompress.dll
+C:\Users\pietr\Downloads\ci-cd\backEnd\Ci-Cd-Count\Ci-Cd-Count\bin\Debug\net9.0\Snappier.dll
+C:\Users\pietr\Downloads\ci-cd\backEnd\Ci-Cd-Count\Ci-Cd-Count\bin\Debug\net9.0\ZstdSharp.dll

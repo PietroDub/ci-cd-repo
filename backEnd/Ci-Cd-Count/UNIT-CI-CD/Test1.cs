@@ -1,11 +1,13 @@
 ﻿using Ci_Cd_Count.Classes;
 using Ci_Cd_Count.Controllers;
 using Microsoft.AspNetCore.Mvc;
+using System.Runtime.Intrinsics.X86;
 
 namespace UNIT_CI_CD
 {
     [TestClass]
     public sealed class CiCdTests
+        //Uma classe sealed é uma classe que não pode ser herdada
     {
         [TestMethod]
         public void MessageTest()

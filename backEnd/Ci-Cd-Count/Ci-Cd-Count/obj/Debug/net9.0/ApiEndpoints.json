@@ -10,6 +10,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Ci_Cd_Count.Controllers.CiCdController",
+    "Method": "ArrozPost",
+    "RelativePath": "api/CiCd",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "arroz",
+        "Type": "Ci_Cd_Count.Classes.Arroz",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Ci_Cd_Count.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

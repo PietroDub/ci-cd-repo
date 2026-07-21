@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ci-Cd-Count")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c36ab5c2ff5530a8aaed31669c4ab65ac7442c3d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+72f4d55eabb85ba4e343bcc6923dd4ac499fba5b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ci-Cd-Count")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ci-Cd-Count")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
