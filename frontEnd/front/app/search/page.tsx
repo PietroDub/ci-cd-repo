@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 
-export default function search(){
+export default function Calculadora(){
 
     const numbers = [1,2,3,4,5,6,7,8,9]
     const [n1, setN1] = useState("");
@@ -66,33 +66,33 @@ export default function search(){
                 </div>
                     {
                         numbers.map(numero => (
-                            <div 
+                            <button 
                             onClick={() => setNumero(+ numero)}
                             className="bg-blue-500">
                                  {numero}
-                            </div>
+                            </button>
                         ))
                     }
-                    <div 
+                    <button 
                     onClick={() => setOperador("+")}
                     className="bg-gray-600 text-center">
                         +
-                    </div>
-                    <div 
+                    </button>
+                    <button 
                     onClick={() => setOperador("-")}
                     className="bg-gray-600 text-center">
                         -
-                    </div>
-                    <div 
+                    </button>
+                    <button 
                     onClick={() => setOperador("/")}
                     className="bg-gray-600 text-center">
                         /
-                    </div>
-                    <div
+                    </button>
+                    <button
                     onClick={() => igual()}
                     >
                         =
-                    </div>
+                    </button>
             </div>
         </div>
     )
