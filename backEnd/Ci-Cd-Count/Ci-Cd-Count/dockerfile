@@ -1,0 +1,38 @@
+FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
+# imagem mais completa oficial da microsoft
+
+WORKDIR /src
+# define no projeto da IMAGEM, uma pasta src e entra nela
+
+COPY . .
+# copia tudo do diretório atual do projeto para o diretório atual da imagem /src
+
+# COPY /controller /src/
+#seria um exemplo feito a mão sem o . .
+
+RUN dotnet restore
+
+RUN dotnet publish -c Release -o /app
+# O comando dotnet publish é usado para compilar um aplicativo .NET e preparar seus arquivos para implantação em um sistema de hospedagem. 
+
+FROM mcr.microsoft.com/dotnet/aspnet:9.0
+# imagem zerada e nova com runtime
+
+WORKDIR /app
+
+EXPOSE 7062
+
+ENV ASPNETCORE_URLS=http://+:7062
+
+COPY --from=build /app .
+# pega oq foi feito no processo anterior e trás para esse
+
+ENTRYPOINT ["dotnet", "Ci-Cd-Count.dll"]
+
+# FROM → escolhe a imagem base.
+# WORKDIR → define a pasta de trabalho.
+# COPY → copia arquivos para dentro da imagem.
+# RUN → executa comandos durante a construção da imagem.
+# ENV → define variáveis de ambiente.
+# EXPOSE → documenta a porta usada pela aplicação.
+# CMD ou ENTRYPOINT → define o que será executado quando o container iniciar.
