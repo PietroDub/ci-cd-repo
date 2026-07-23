@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\pietr\\Downloads\\ci-cd\\backEnd\\Ci-Cd-Count\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{21A84D90-5A11-388D-D8A3-B4E9564B6DFF}|Ci-Cd-Count\\Ci-Cd-Count.csproj|c:\\users\\pietr\\downloads\\ci-cd\\backend\\ci-cd-count\\ci-cd-count\\ci-cd-count.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{21A84D90-5A11-388D-D8A3-B4E9564B6DFF}|Ci-Cd-Count\\Ci-Cd-Count.csproj|solutionrelative:ci-cd-count\\ci-cd-count.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21A84D90-5A11-388D-D8A3-B4E9564B6DFF}|Ci-Cd-Count\\Ci-Cd-Count.csproj|c:\\users\\pietr\\downloads\\ci-cd\\backend\\ci-cd-count\\ci-cd-count\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{21A84D90-5A11-388D-D8A3-B4E9564B6DFF}|Ci-Cd-Count\\Ci-Cd-Count.csproj|solutionrelative:ci-cd-count\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{21A84D90-5A11-388D-D8A3-B4E9564B6DFF}|Ci-Cd-Count\\Ci-Cd-Count.csproj|c:\\users\\pietr\\downloads\\ci-cd\\backend\\ci-cd-count\\ci-cd-count\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{21A84D90-5A11-388D-D8A3-B4E9564B6DFF}|Ci-Cd-Count\\Ci-Cd-Count.csproj|solutionrelative:ci-cd-count\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -30,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,7 +62,33 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Ci-Cd-Count",
+              "DocumentMoniker": "C:\\Users\\pietr\\Downloads\\ci-cd\\backEnd\\Ci-Cd-Count\\Ci-Cd-Count\\Ci-Cd-Count.csproj",
+              "RelativeDocumentMoniker": "Ci-Cd-Count\\Ci-Cd-Count.csproj",
+              "ToolTip": "C:\\Users\\pietr\\Downloads\\ci-cd\\backEnd\\Ci-Cd-Count\\Ci-Cd-Count\\Ci-Cd-Count.csproj",
+              "RelativeToolTip": "Ci-Cd-Count\\Ci-Cd-Count.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-23T11:19:51.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\pietr\\Downloads\\ci-cd\\backEnd\\Ci-Cd-Count\\Ci-Cd-Count\\appsettings.json",
+              "RelativeDocumentMoniker": "Ci-Cd-Count\\appsettings.json",
+              "ToolTip": "C:\\Users\\pietr\\Downloads\\ci-cd\\backEnd\\Ci-Cd-Count\\Ci-Cd-Count\\appsettings.json",
+              "RelativeToolTip": "Ci-Cd-Count\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-23T11:19:39.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "dockerfile",
               "DocumentMoniker": "C:\\Users\\pietr\\Downloads\\ci-cd\\backEnd\\Ci-Cd-Count\\Ci-Cd-Count\\dockerfile",
               "RelativeDocumentMoniker": "Ci-Cd-Count\\dockerfile",
@@ -67,7 +101,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "CiCdController.cs",
               "DocumentMoniker": "C:\\Users\\pietr\\Downloads\\ci-cd\\backEnd\\Ci-Cd-Count\\Ci-Cd-Count\\Controllers\\CiCdController.cs",
               "RelativeDocumentMoniker": "Ci-Cd-Count\\Controllers\\CiCdController.cs",
@@ -79,7 +113,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Arroz.cs",
               "DocumentMoniker": "C:\\Users\\pietr\\Downloads\\ci-cd\\backEnd\\Ci-Cd-Count\\Ci-Cd-Count\\Classes\\Arroz.cs",
               "RelativeDocumentMoniker": "Ci-Cd-Count\\Classes\\Arroz.cs",
@@ -91,7 +125,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Test1.cs",
               "DocumentMoniker": "C:\\Users\\pietr\\Downloads\\ci-cd\\backEnd\\Ci-Cd-Count\\UNIT-CI-CD\\Test1.cs",
               "RelativeDocumentMoniker": "UNIT-CI-CD\\Test1.cs",
@@ -103,13 +137,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\pietr\\Downloads\\ci-cd\\backEnd\\Ci-Cd-Count\\Ci-Cd-Count\\Program.cs",
               "RelativeDocumentMoniker": "Ci-Cd-Count\\Program.cs",
               "ToolTip": "C:\\Users\\pietr\\Downloads\\ci-cd\\backEnd\\Ci-Cd-Count\\Ci-Cd-Count\\Program.cs",
               "RelativeToolTip": "Ci-Cd-Count\\Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAADwvyEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-21T12:54:01.53Z",
               "EditorCaption": ""
